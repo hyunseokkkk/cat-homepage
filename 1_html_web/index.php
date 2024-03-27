@@ -1,29 +1,31 @@
 <html>
-	<head>
-		<!-- 보기 불편해서 css 파일로 뺐습니다. -->
-		<link rel="stylesheet" href="./style.css">
-	</head>
-	<body>
 
-		<header>
-        <h1>GRAPE 고양이 웹</h1>
-    </header>
+<head>
+	<link rel="stylesheet" href="./style.css">
+</head>
 
-		<form>
+<body>
 
-			<label for="username">username</label>
-			<input name="username" type="text">
+	<header>
+		<h1>GRAPE 고양이 웹</h1>
+	</header>
 
-			<label for="password">password</label>
-			<input name="password" type="password">
+	<form>
 
-			<input type="submit" value="로그인">
+		<label for="username">username</label>
+		<input name="username" type="text">
 
-		</form>
+		<label for="password">password</label>
+		<input name="password" type="password">
 
-		<footer>
-        <p>&copy; This is Cat Webpage. All rights reserved.</p>
-    </footer>
+		<input type="submit" value="로그인">
 
-	</body>
+	</form>
+
+	<footer>
+		<p>&copy; This is Cat Webpage. All rights reserved.</p>
+	</footer>
+
+</body>
+
 </html>
