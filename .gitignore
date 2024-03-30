@@ -9,3 +9,4 @@
 .viminfo
 .local
 .cache
+.sqlite_history
