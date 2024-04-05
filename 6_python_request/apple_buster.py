@@ -1,7 +1,3 @@
-'''
-Title:apple_buster.py 
-Author:Jaeho Jeon 2024-01-25
-'''
 
 def checker(guess,answer):
     if(guess==answer):

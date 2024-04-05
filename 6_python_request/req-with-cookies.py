@@ -1,6 +1,6 @@
 import requests
 
-url = 'http://localhost:8000/page-babo.php'
+url = 'http://localhost:80/cat-homepage/6_python_request/page-babo.php'
 
 cookies = {
     'user':'babo_dg'

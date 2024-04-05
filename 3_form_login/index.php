@@ -1,4 +1,4 @@
-<!-- Broken Access Control Vulnerability -->
+
 
 <?php
 
@@ -10,8 +10,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $validUsername = "grapeuser";
   $validPassword = "secret1234";
 
-  // 기존 코드: 
-  // if ($enteredUsername == $validUsername or $enteredPassword == $validPassword) { 
   if ($enteredUsername == $validUsername and $enteredPassword == $validPassword) {
 
     header("Location: login-success.php");

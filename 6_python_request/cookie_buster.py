@@ -4,8 +4,6 @@ Author:Jaeho Jeon 2024-01-25
 '''
 import requests
 
-import requests
-
 def request_checker(url,random_2char): # check if the cookie is correct
     user_value = f"grape_{random_2char}"
     cookies = {
@@ -22,7 +20,7 @@ def buster_2char(characters): # guess 2 characters
     for c1 in characters:
         for c2 in characters:
                 gen = ''.join([c1, c2])
-                if(request_checker(url='http://localhost:8000/page-grape.php',random_2char=gen)):
+                if(request_checker(url='http://localhost:80/cat-homepage/6_python_request/page-grape.php',random_2char=gen)):
                     return
                         
 buster_2char('abcdefghijklmnopqrstuvwxyz')

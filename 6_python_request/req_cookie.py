@@ -13,4 +13,4 @@ def request_checker(url,random_2char):
         print(f"failed : {user_value}")
 
 
-request_checker(url='http://localhost:8000/page-babo.php',random_2char='dg')
+request_checker(url='http://localhost:80/cat-homepage/6_python_request/page-babo.php',random_2char='dg')
